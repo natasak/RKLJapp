@@ -6,5 +6,5 @@ Simple Single Screen App for for displaying info of RKLJ roller speed skating cl
 
 Screenshots
 -----------
-![app](https://github.com/natasak/CoffeeOrderingApp/blob/master/screenshots/english.png)
+![app](https://github.com/natasak/RKLJapp/blob/master/screenshot.png)
 
