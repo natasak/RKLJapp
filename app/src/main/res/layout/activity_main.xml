@@ -29,7 +29,7 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="Roller speed skating club" />
+            android:text="@string/header" />
     </RelativeLayout>
 
     <LinearLayout
@@ -49,7 +49,7 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
-            android:text="www.rklj.si"/>
+            android:text="@string/www"/>
     </LinearLayout>
 
     <LinearLayout
@@ -69,7 +69,7 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
-            android:text="www.facebook.com/RKLjubljana"/>
+            android:text="@string/fb"/>
     </LinearLayout>
 
     <LinearLayout
@@ -89,7 +89,7 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
-            android:text="Dunajska 160, 1000 Ljubljana, Slovenia"/>
+            android:text="@string/address"/>
     </LinearLayout>
 
     <LinearLayout
@@ -109,7 +109,7 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
-            android:text="Registered speed roller skating club, which teaches and trains kids, teenagers and adults basics in inline speed skating (recreational and competitive)."/>
+            android:text="@string/description"/>
     </LinearLayout>
 
 

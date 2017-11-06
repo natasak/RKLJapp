@@ -1,3 +1,13 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">RKLJ</string>
+
+
+    <!-- from XML file, text  -->
+    <string name="header">Roller speed skating club</string>
+    <string name="www">www.rklj.si</string>
+    <string name="fb">www.facebook.com/RKLjubljana</string>
+    <string name="address">Dunajska 160, 1000 Ljubljana, Slovenia</string>
+    <string name="description">Registered speed roller skating club, which teaches and trains kids, teenagers and adults basics in inline speed skating (recreational and competitive).</string>
+
+
 </resources>
