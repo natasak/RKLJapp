@@ -49,6 +49,8 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
+            android:autoLink="web"
+            android:textColorLink="#616161"
             android:text="@string/www"/>
     </LinearLayout>
 
@@ -69,6 +71,8 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
+            android:autoLink="web"
+            android:textColorLink="#616161"
             android:text="@string/fb"/>
     </LinearLayout>
 
@@ -88,6 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
+            android:textColor="#616161"
             android:layout_marginLeft="20dp"
             android:text="@string/address"/>
     </LinearLayout>
@@ -109,6 +114,7 @@
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:layout_marginLeft="20dp"
+            android:textColor="#616161"
             android:text="@string/description"/>
     </LinearLayout>
 
