@@ -10,7 +10,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/size_0"
             android:layout_weight="3"
             android:src="@drawable/rklj"
             android:scaleType="centerCrop"/>
@@ -21,7 +21,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/height_40"
                 android:background="#388E3C"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -31,30 +31,30 @@
                 android:textAllCaps="true"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="@dimen/text_size"
                 android:text="@string/header" />
         </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/size_0"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp" >
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10" >
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_home" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="5"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="@dimen/margin_20"
                 android:autoLink="web"
                 android:textColorLink="#616161"
                 android:text="@string/www"/>
@@ -62,24 +62,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/size_0"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp" >
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10" >
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_fb" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="5"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="@dimen/margin_20"
                 android:autoLink="web"
                 android:textColorLink="#616161"
                 android:text="@string/fb"/>
@@ -87,48 +87,48 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/size_0"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp" >
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10" >
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_address" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="5"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:textColor="#616161"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="@dimen/margin_20"
                 android:text="@string/address"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/size_0"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_description" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/size_0"
                 android:layout_weight="5"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="@dimen/margin_20"
                 android:textColor="#616161"
                 android:text="@string/description"/>
         </LinearLayout>
